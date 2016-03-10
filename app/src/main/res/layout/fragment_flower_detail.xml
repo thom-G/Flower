@@ -1,0 +1,81 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.Flower_detail">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/imageView2"
+        android:background="@drawable/flower_img"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_marginTop="130dp"
+        android:orientation="vertical"
+        android:paddingTop="20dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@color/colorPrimaryDark">
+
+
+            <Button
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButton"
+                android:background="#01BF9D"
+                android:text="Товч"/>
+            <Button
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButton1"
+                android:text="Бэлэгдэл"
+                android:background="#01A185"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@color/colorPrimaryDark">
+
+
+            <Button
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButtodn"
+                android:background="#1FCF6D"
+                android:text="Эерэг нөлөө"/>
+            <Button
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButtonsa1"
+                android:background="#1AAF5D"
+                android:text="Сөрөг нөлөө"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@color/colorPrimaryDark">
+
+
+            <Button
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButtoadsan"
+                android:background="#5BABE6"
+                android:text="Эмчилгээ"/>
+            <Button
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButasdfaton1"
+                android:text="Тарих зөвлөмж"
+                android:background="#217FBC"/>
+        </TableRow>
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,80 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.flower.thom_g.flower.Help_frag">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#333333"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Бэлгийн цэцэг"
+            android:id="@+id/surprise_btn"
+            android:onClick="surprise_click"
+            android:layout_weight="0.25"
+            android:textSize="20dp"
+            android:background="#E84c3D"
+            android:drawableTop="@drawable/ic_003"
+            android:textColor="#fff"
+            android:paddingTop="30dp">
+        </Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Тасалгааны цэцэг"
+            android:id="@+id/button3"
+            android:layout_weight="0.25"
+            android:layout_marginTop="-13dp"
+            android:textSize="20dp"
+            android:background="#E77E23"
+            android:drawableTop="@drawable/ic_001"
+            android:textColor="#fff"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Гадна орчины цэцэг"
+            android:id="@+id/button1"
+            android:layout_weight="0.25"
+            android:layout_marginTop="-13dp"
+            android:textSize="20dp"
+            android:background="#2AB081"
+            android:drawableTop="@drawable/ic_002"
+            android:textColor="#fff"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Нэвтрэх"
+                android:id="@+id/button4"
+                android:layout_weight="0.3334"
+                android:textSize="20dp"
+                android:background="#34495E"
+                android:textColor="#fff"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Бүртгүүлэх"
+                android:id="@+id/button5"
+                android:layout_weight="0.3334"
+                android:textSize="20dp"
+                android:background="#455569"
+                android:textColor="#fff"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

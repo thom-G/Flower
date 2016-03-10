@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Нүүр" />
+
+        <item
+            android:id="@+id/nav_supriseflower"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Бэлгийн цэцэг" />
+        <item
+            android:id="@+id/nav_roomflower"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Тасалгааны цэцэг" />
+        <item
+            android:id="@+id/nav_outflower"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Гадна орчины цэцэг" />
+        <item
+            android:id="@+id/nav_shops"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Дэлгүүрүүд" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Тухай" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Тусламж" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Холбоо барих" />
+
+    </group>
+</menu>

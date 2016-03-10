@@ -1,0 +1,149 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.flower.thom_g.flower.Surprise_frag">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sub_nav_width"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="130dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sub_title"
+            android:text="Бэлгийн цэцэг"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:paddingTop="20dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@color/colorPrimaryDark">
+
+
+            <Button
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:id="@+id/flower_1"
+                android:background="@color/white"
+                android:drawableTop="@drawable/ic_003"
+                android:text="Цэцэг 1"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimaryDark" />
+
+            <Button
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:id="@+id/flower_2"
+                android:drawableTop="@drawable/ic_003"
+                android:text="Цэцэг 2"
+                android:background="@color/white"/>
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark"/>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@color/colorPrimaryDark">
+
+
+            <Button
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:drawableTop="@drawable/ic_003"
+                android:id="@+id/other1"
+                android:background="@color/white"
+                android:text="Эерэг нөлөө"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimaryDark" />
+            <Button
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:id="@+id/other2"
+                android:drawableTop="@drawable/ic_003"
+                android:background="@color/white"
+                android:text="Сөрөг нөлөө"/>
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark"/>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@color/colorPrimaryDark">
+
+
+            <Button
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:drawableTop="@drawable/ic_003"
+                android:id="@+id/other3"
+                android:background="@color/white"
+                android:text="Эмчилгээ"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimaryDark" />
+            <Button
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:drawableTop="@drawable/ic_003"
+                android:id="@+id/other4"
+                android:text="Тарих зөвлөмж"
+                android:background="@color/white"/>
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark"/>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@color/colorPrimaryDark">
+
+
+            <Button
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:drawableTop="@drawable/ic_003"
+                android:id="@+id/other5"
+                android:background="@color/white"
+                android:text="Эмчилгээ"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimaryDark" />
+            <Button
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:drawableTop="@drawable/ic_003"
+                android:id="@+id/other6"
+                android:text="Тарих зөвлөмж"
+                android:background="@color/white"/>
+        </TableRow>
+
+    </LinearLayout>
+</FrameLayout>

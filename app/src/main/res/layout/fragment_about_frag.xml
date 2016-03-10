@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.flower.thom_g.flower.About_frag">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sub_nav_width"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="130dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sub_title"
+            android:text="Тухай"/>
+
+    </LinearLayout>
+
+</FrameLayout>
